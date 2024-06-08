@@ -1,0 +1,1 @@
+df['tpep_pickup_datetime'] = df['tpep_pickup_datetime'].astype(np.int64) // 10**9
